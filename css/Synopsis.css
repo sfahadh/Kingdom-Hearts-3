@@ -1,0 +1,17 @@
+.photo {
+    /* background: url("../images/kh_3\(10\).png"); */
+    width: 600px;
+    height: 600px;
+}
+
+.slideshow {
+    text-align: center;
+    background: url("../images/kh_3\(10\).png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.back {
+    
+}

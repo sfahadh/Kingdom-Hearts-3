@@ -1,0 +1,62 @@
+body {
+    background: url(../images/kh_3\(9\).jpg);
+}
+article {
+    border: 4px solid black;
+    margin: 0 10%;
+    padding-top: 5em;
+    height: 90%;
+    background-color: rgba(200, 118, 118, 0.954);
+}
+
+h1 {
+    margin: 1em 2em;
+    text-align: center;
+}
+
+.page {
+    display: flex;
+}
+
+.myReview {
+    flex: 0.33;
+    margin: 0.2em 2em;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.otherReviews img {
+    width: 300px;
+}
+
+.otherReviews {
+    flex: 0.67;
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px;
+    margin-bottom: 3em;
+}
+
+.otherReviews h4 {
+    /* border: 2px solid black; */
+    margin: 0.5em 1em;
+    text-align: center;
+}
+
+.otherReviews p {
+    margin: 0.5em 1.3em;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.page img {
+    border: 3px solid black;
+}
+
+
+
+
+
+
+
+
+

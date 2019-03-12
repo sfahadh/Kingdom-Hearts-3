@@ -1,0 +1,169 @@
+html {
+    background: url(../images/kh_3\(9\).jpg);
+}
+
+article {
+    border: 4px solid black;
+    margin: 0 10%;
+    padding-top: 5em;
+    padding-bottom: 3em;
+    background-color: rgba(200, 118, 118, 0.954);
+}
+
+section {
+    display: flex;
+}
+
+h1 {
+    margin-left: 15px;
+}
+
+ul {
+    margin: 2em 2.5em;
+    line-height: 1.5em;
+    flex: 0.7;
+}
+
+li {
+    font-family: 'Philosopher', sans-serif;
+}
+
+span {
+    font-weight: 900;
+    font-size: 1.1em;
+}
+
+img {
+    width: 200px;
+    border: 2px solid black;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 4em;
+    margin-left: 5em;
+    
+}
+
+.gal {
+    margin: 0 4em 3em 4em;
+}
+
+.photos2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 4em;
+    margin-left: 5em;
+
+}
+
+.gal2 {
+    margin: 0 4em 3em 4em;
+}
+
+.char {
+    border: 5px solid red;
+    width: 204px;
+}
+
+.Sora:hover {
+    content: url(../images/Haley_Sora.png);
+    animation: rotate 3s;
+}
+
+.Donald:hover {
+    content: url(../images/Tony_Donald.png);
+    animation: rotate 3s;
+}
+
+.Goofy:hover {
+    content: url(../images/Bill_Goofy.png);
+    animation: rotate 3s;
+}
+
+.Jack:hover {
+    content: url(../images/Jared_Jack.png);
+    animation: rotate 3s;
+}
+
+.Hercules:hover {
+    content: url(../images/Tate_Hercules.png);
+    animation: rotate 3s;
+}
+
+.Hades:hover {
+    content: url(../images/James_Hades.png);
+    animation: rotate 3s;
+}
+
+.Woody:hover {
+    content: url(../images/Jim_Woody.png);
+    animation: rotate 3s;
+}
+
+.Baymax:hover {
+    content: url(../images/Scott_Baymax.png);
+    animation: rotate 3s;
+}
+
+.Fred:hover {
+    content: url(../images/TJ_Fred.png);
+    animation: rotate 3s;
+}
+
+.Anna:hover {
+    content: url(../images/Kristen_Anna.png);
+    animation: rotate 3s;
+}
+
+.Elsa:hover {
+    content: url(../images/Idina_Elsa.png);
+    animation: rotate 3s;
+}
+
+.Gothel:hover {
+    content: url(../images/Donna_Gothel.png);
+    animation: rotate 3s;
+}
+
+.Hamm:hover {
+    content: url(../images/John_Hamm.png);
+    animation: rotate 3s;
+}
+
+.Kristoff:hover {
+    content: url(../images/Jonathan_Kristoff.png);
+    animation: rotate 3s;
+}
+
+.Olaf:hover {
+    content: url(../images/Josh_Olaf.png);
+    animation: rotate 3s;
+}
+
+.Flynn:hover {
+    content: url(../images/Zachary_Flynn.png);
+    animation: rotate 3s;
+}
+
+@keyframes rotate {
+    50% {
+        transform: translate(-90px) rotate(360deg);
+    }
+    100% {
+        transform: 0;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
